@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Rhino.Etl.Dsl.CompilerSteps.CorrelateTypesToModuleName" Collapsed="true">
+    <Position X="32.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAEQAAAI=</HashCode>
+      <FileName>CompilerSteps\CorrelateTypesToModuleName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.CompilerSteps.UseModuleNameAsNamespaceIfMissing" Collapsed="true">
+    <Position X="32.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>CompilerSteps\UseModuleNameAsNamespaceIfMissing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.EtlDslEngine" Collapsed="true">
+    <Position X="34.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIgAAAAAAgAAAAIAAAAAABQAAAAAAAAAAAAABAAEA=</HashCode>
+      <FileName>EtlDslEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.AbstractChildMacro" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAEAAAAAAAABAAAAAgAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\AbstractChildMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.AbstractClassGeneratorMacro&lt;T&gt;" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQBAAAgAAAAAAAIAAAQAAgAAxAAAIAAAAhAEAEIAAAE=</HashCode>
+      <FileName>Macros\AbstractClassGeneratorMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.AccumulateMacro" Collapsed="true">
+    <Position X="25.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\AccumulateMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.ActionMacro" Collapsed="true">
+    <Position X="7.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\ActionMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.AggregateMacro" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\AggregateMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.FinishedProcessingMacro" Collapsed="true">
+    <Position X="14" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\FinishedProcessingMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.FullJoinMacro" Collapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\FullJoinMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.GroupByMacro" Collapsed="true">
+    <Position X="23" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\GroupByMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.HashJoinMacro" Collapsed="true">
+    <Position X="26.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAEAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\HashJoinMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.InnerJoinMacro" Collapsed="true">
+    <Position X="23.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\InnerJoinMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.InputMacro" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\InputMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.JoinMacro" Collapsed="true">
+    <Position X="16.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\JoinMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.JoinSectionMacro" Collapsed="true">
+    <Position X="19.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\JoinSectionMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.LeftJoinMacro" Collapsed="true">
+    <Position X="27.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\LeftJoinMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.LeftMacro" Collapsed="true">
+    <Position X="18.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\LeftMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.OnMacro" Collapsed="true">
+    <Position X="9.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\OnMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.OperationMacro" Collapsed="true">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\OperationMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.OutputMacro" Collapsed="true">
+    <Position X="18.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\OutputMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.ProcessMacro" Collapsed="true">
+    <Position X="21" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\ProcessMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.RightJoinMacro" Collapsed="true">
+    <Position X="30" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\RightJoinMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.RightMacro" Collapsed="true">
+    <Position X="20.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\RightMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.RowProcessedMacro" Collapsed="true">
+    <Position X="11.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\RowProcessedMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.SqlBulkInsertMacro" Collapsed="true">
+    <Position X="14.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAABAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\SqlBulkInsertMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rhino.Etl.Dsl.Macros.TerminateMacro" Collapsed="true">
+    <Position X="16.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Macros\TerminateMacro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
