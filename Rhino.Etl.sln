@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhino.Etl.Core", "Rhino.Etl.Core\Rhino.Etl.Core.csproj", "{DC42946E-5972-411C-A061-F2932E49C31F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhino.Etl.Tests", "Rhino.Etl.Tests\Rhino.Etl.Tests.csproj", "{A1519C4F-3C25-4484-B3D2-2266C133754E}"
@@ -8,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhino.Etl.Dsl", "Rhino.Etl.Dsl\Rhino.Etl.Dsl.csproj", "{D087E051-C099-468D-A3E7-4567DBBDFE69}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rhino.Etl.Cmd", "Rhino.Etl.Cmd\Rhino.Etl.Cmd.csproj", "{AAD5286D-943E-472A-A861-8C6F155C8712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestETL", "TestETL\TestETL.csproj", "{6EC44FCB-9FA0-43DE-A09E-E9D9C33014FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NReco.LambdaParser", "NReco.LambdaParser\NReco.LambdaParser.csproj", "{4C757103-1607-44DA-BAD0-8DB851462222}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,8 +37,19 @@ Global
 		{AAD5286D-943E-472A-A861-8C6F155C8712}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAD5286D-943E-472A-A861-8C6F155C8712}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAD5286D-943E-472A-A861-8C6F155C8712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC44FCB-9FA0-43DE-A09E-E9D9C33014FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC44FCB-9FA0-43DE-A09E-E9D9C33014FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC44FCB-9FA0-43DE-A09E-E9D9C33014FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC44FCB-9FA0-43DE-A09E-E9D9C33014FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C757103-1607-44DA-BAD0-8DB851462222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C757103-1607-44DA-BAD0-8DB851462222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C757103-1607-44DA-BAD0-8DB851462222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C757103-1607-44DA-BAD0-8DB851462222}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7699A9DC-5498-45C1-A7A7-892A34359D3F}
 	EndGlobalSection
 EndGlobal

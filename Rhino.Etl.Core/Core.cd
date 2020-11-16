@@ -95,7 +95,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Rhino.Etl.Core.WithLoggingMixin" Collapsed="true">
-    <Position X="48" Y="1.75" Width="1.5" />
+    <Position X="48" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAYAAAAEACAAAAAAAABEAAAAAAEAAAAA=</HashCode>
       <FileName>WithLoggingMixin.cs</FileName>

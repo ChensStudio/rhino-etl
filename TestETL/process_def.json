@@ -1,0 +1,94 @@
+{
+  "process": [
+    {
+      "name": "join1",
+      "type": "leftjoin",
+      "left": {
+        "type": "input",
+        "name": "User"
+      },
+      "right": {
+        "type": "input",
+        "name": "User2"
+      },
+      "join_condition": [
+        [ "ID", "ID" ]
+      ],
+      "mapping": [
+        {
+          "left": "ID",
+          "right": null,
+          "formula": null,
+          "output": "ID"
+        },
+        {
+          "left": "Name",
+          "right": null,
+          "formula": null,
+          "output": "Name"
+        },
+        {
+          "left": null,
+          "right": "Age",
+          "formula": null,
+          "output": "Age"
+        }
+      ],
+      "output": {
+        "name": "Output1",
+        "media": "datatable"
+      }
+    },
+    {
+      "name": "join2",
+      "type": "leftjoin",
+      "left": {
+        "type": "output",
+        "name": "Output1"
+      },
+      "right": {
+        "type": "input",
+        "name": "User3"
+      },
+      "join_condition": [
+        [ "ID", "ID" ]
+      ],
+      "mapping": [
+        {
+          "left": "ID",
+          "right": null,
+          "formula": null,
+          "output": "ID"
+        },
+        {
+          "left": "Name",
+          "right": null,
+          "formula": null,
+          "output": "Name"
+        },
+        {
+          "left": "Age",
+          "right": null,
+          "formula": null,
+          "output": "Age"
+        },
+        {
+          "left": null,
+          "right": "Sex",
+          "formula": null,
+          "output": "Sex"
+        },
+        {
+          "left": null,
+          "right": null,
+          "formula": "(left_Age!=null && right_Sex!=null) ? true:false",
+          "output": "Complete"
+        }
+      ],
+      "output": {
+        "name": "Output2",
+        "type": "datatable"
+      }
+    }
+  ]
+}
